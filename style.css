@@ -1,0 +1,48 @@
+.immagine{
+  width: 100%;
+  z-index: -1;
+}
+
+.logo{
+  width: 150px;
+  z-index: 2;
+}
+
+.hello{
+  color: green;
+}
+
+.trasparente{
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+  height: 500px;
+  width: 500px;
+  position: relative;
+  top: -700px;
+  left: 400px;
+  align-items: center;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration-color: green;
+  z-index: 0;
+}
+
+.verde{
+  background-color: green;
+  height: 20px;
+  border-radius: 6px;
+  width: 500px;
+}
+
+.rosso{
+  background-color: red;
+  border-radius: 6px;
+  width: 200px;
+
+}
+
+.giallo{
+  background-color: yellow;
+  border-radius: 6px;
+  width: 300px;
+}
